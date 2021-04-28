@@ -15,7 +15,7 @@ Detect if someone has diabetes using machine learning and python!
 """)
 # 
 # display an image
-image = Image.open('DiabetesDetectionWebApp.png')
+image = Image.open('pngtree-hand-painted-diabetes-detection.jpg')
 st.image(image, caption='ML',use_column_width=True)
 
 # get the data

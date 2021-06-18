@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\User\\Anaconda3\\envs\\DiabetesWebApp\\python.exe"
+    "python.pythonPath": "C:\\Users\\Admin\\anaconda3\\envs\\DiabetesWebApp\\python.exe",
+    "python.formatting.provider": "autopep8"
 }

@@ -9,5 +9,3 @@ keras==2.4.3
 Pillow==8.2.0
 scikit_learn==0.24.2
 lightgbm==3.2.1
-tensorflow>=1.15,<2.0
-keras==2.3.1

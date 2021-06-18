@@ -323,8 +323,7 @@ def main():
 
         if selectbox == 'Deep Learning Model':
             # button to url
-            if st.button('Click here to view Deep Learning Modeling part'):
-                webbrowser.open_new_tab(kaggle)
+            """[Deep Learning Modeling Part](https://www.kaggle.com/uciml/pima-indians-diabetes-database)"""
 
             # open image
             st.write("""
@@ -363,8 +362,7 @@ def main():
             st.write(model_logs_ex)
 
         elif selectbox == 'Machine Learning Model':
-            if st.button('Click here to view Machine Learning Modeling part'):
-                webbrowser.open_new_tab(ml_training)
+            """[Machine Learning Modeling Part](https://colab.research.google.com/drive/1z_-SRUKgo0fQ6d7AVu3uvJdeNvaw2ZsO?usp=sharing)"""
             image = Image.open('img/diabetes_end.png')
             st.image(image, caption='images from adobe stock',
                      use_column_width=True)
@@ -386,10 +384,8 @@ def main():
             'pycaret-screenshots/after-feature-engineering-Pycaret.JPG')
         st.image(image, caption='model', use_column_width=True)
 
-        if st.button('Click here to view the Colab code for the Modeling part with the help of Pycaret'):
-            webbrowser.open_new_tab(pycaret)
-        if st.button('Learn more about Pycaret'):
-            webbrowser.open_new_tab(learn_pycaret)
+        """[Pycaret Modeling](https://colab.research.google.com/drive/1qwfNPrJOyB6NHYmt6gIYSNyQamXiphi5?usp=sharing)"""
+        """[Learn more about Pycaret](https://www.kaggle.com/risenattarach/complete-beginners-guide-to-pycaret)"""
 
 
 if __name__ == "__main__":

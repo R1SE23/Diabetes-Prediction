@@ -323,7 +323,7 @@ def main():
 
         if selectbox == 'Deep Learning Model':
             # button to url
-            """[Deep Learning Modeling Part](https://www.kaggle.com/uciml/pima-indians-diabetes-database)"""
+            """[Deep Learning Modeling Part](https://www.kaggle.com/risenattarach/deep-learning-prediction-val-acc-91-45)"""
 
             # open image
             st.write("""

@@ -228,7 +228,7 @@ def main():
             dl_pred.predict(data_dl_scaled, deepLearning=True)
 
             # load ML models
-            lgr, knn, svc, dt, rdf, ada, lgbm = load_ml_model()
+            lgr, svc, dt, rdf, ada, lgbm = load_ml_model()
             # load scaler (Model of ML and DL were trained differently)
             min_max_scaler, standard_scaler = load_scaler_ml()
             # pass in user_data
@@ -241,8 +241,8 @@ def main():
             logisticReg = ModelPrediction(lgr, "LogisticRegression")
             logisticReg.predict(df_mm)
 
-            KNN = ModelPrediction(knn, "KNN")
-            KNN.predict(df_sd)
+#             KNN = ModelPrediction(knn, "KNN")
+#             KNN.predict(df_sd)
 
             supportVecM = ModelPrediction(svc, "SVC")
             supportVecM.predict(df_sd)

@@ -5,8 +5,6 @@ numpy
 joblib
 plotly
 streamlit
-keras_nightly
-keras
 Pillow
 scikit-learn
 lightgbm
